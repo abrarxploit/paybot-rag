@@ -6,7 +6,7 @@
 
 ## 📸 Demo
 
-![Demo](<../Pictures/Screenshots/Screenshot 2026-04-29 135403.png>)
+![Demo](<img width="1919" height="1079" alt="Screenshot 2026-04-29 135403" src="https://github.com/user-attachments/assets/88b5a6b7-5955-4524-a224-1949058aadc1" />)
 
 ---
 
