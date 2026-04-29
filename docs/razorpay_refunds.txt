@@ -1,0 +1,78 @@
+Razorpay Docs Logo
+US
+Api
+
+Refunds
+
+API Test Keys
+
+Refunds APIs
+Available in
+
+IN
+India
+
+MY
+Malaysia
+
+SG
+Singapore
+
+US
+United States
+
+Make full or partial refunds to customers. You can initiate refunds only on those payments that are in captured state. A payment in authorized state is auto-refunded if not captured within 3 days of creation. You can create and manage refunds using APIs or from the Dashboard.
+
+
+Related Guides:
+
+About Refunds
+
+Set Up Webhooks
+
+Sample Payloads
+
+Endpoints
+
+06
+
+Create a Normal Refund
+
+POST
+
+Creates a normal refund for a payment.
+
+
+Fetch Multiple Refunds for a Payment
+
+GET
+
+Retrieves multiple refunds for a payment.
+
+
+Fetch a Specific Refund for a Payment
+
+GET
+
+Retrieves details of a specific refund made for a payment.
+
+
+Fetch All Refunds
+
+GET
+
+Retrieves details of all refunds.
+
+
+Fetch Refund With ID
+
+GET
+
+Retrieves the refund using the id.
+
+
+Update a Refund
+
+PATCH
+
+Updates the notes parameter for a refund.

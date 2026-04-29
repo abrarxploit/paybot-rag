@@ -1,0 +1,157 @@
+Razorpay Docs Logo
+US
+Api
+
+Payments
+
+Subscriptions
+
+API Test Keys
+
+Subscriptions APIs
+Available in
+
+IN
+India
+
+MY
+Malaysia
+
+SG
+Singapore
+
+US
+United States
+
+You can use Subscriptions to charge a customer periodically. A Subscription contains details like the plan, the start date, the total number of billing cycles, the free trial period (if any) and the upfront amount to be collected.
+
+
+Below are the steps to integrate Subscriptions. You can also refer to our comprehensive Subscriptions Integration guide.
+
+Create a Plan
+Create a Subscription
+Checkout Integration
+Related Guides:
+
+About Subscriptions
+
+Integrate With Subscriptions
+
+Set Up Webhooks
+
+Webhook Payloads
+
+Endpoints
+
+16
+
+Create a Plan
+
+POST
+
+Creates a plan.
+
+
+Fetch All Plans
+
+GET
+
+Fetches all the plans.
+
+
+Fetch a Plan With ID
+
+GET
+
+Fetches a plan by its unique identifier.
+
+
+Create a Subscription
+
+POST
+
+Creates a Subscription.
+
+
+Create a Subscription Link
+
+POST
+
+Creates a Subscription link.
+
+
+Fetch All Subscriptions
+
+GET
+
+Fetches all the created Subscriptions.
+
+
+Fetch Subscription With ID
+
+GET
+
+Fetches a Subscription details using its unique identifier.
+
+
+Cancel a Subscription
+
+POST
+
+Cancels a Subscription.
+
+
+Update a Subscription
+
+PATCH
+
+Updates a Subscription.
+
+
+Fetch Details of a Pending Update
+
+GET
+
+Fetches details about any update of a Subscription.
+
+
+Cancel an Update
+
+POST
+
+Cancels an update.
+
+
+Pause a Subscription
+
+POST
+
+Pauses an active Subscription.
+
+
+Resume a Subscription
+
+POST
+
+Resumes a paused Subscription.
+
+
+Fetch All Invoices for a Subscription
+
+GET
+
+Fetches all the generated invoices for a Subscription.
+
+
+Link an Offer to a Subscription
+
+POST
+
+Links an Offer to a Subscription.
+
+
+Delete an Offer linked to a Subscription
+
+DELETE
+
+Deletes an Offer linked to a Subscription.

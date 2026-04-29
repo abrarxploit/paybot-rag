@@ -1,0 +1,321 @@
+Razorpay Docs Logo
+Search the documentation
+/
+
+
+Pricing
+
+API Reference
+
+Support
+
+IN
+Log In
+
+
+Sign Up
+
+Home
+Payments
+Engage
+POS
+Banking Plus
+Payroll
+Partners
+API Reference
+Developer Tools
+JUMP TO
+Razorpay Payments Suite
+Quickstart Guide
+Solutions by Industry
+
+Sign Up
+
+Dashboard
+
+Customers
+
+Orders
+
+Payments
+
+International Payments
+
+Payment Methods
+
+Settlements
+
+Refunds
+
+Disputes
+
+Payment Gateway
+
+Ecommerce Plugins
+
+Widgets
+
+Magic Checkout
+
+Razorpay - Payments on WhatsApp
+
+Payment Links
+
+Payment Button
+
+Payment Pages
+
+Webstore
+
+Invoices
+
+QR Codes
+
+Offers
+
+EMI²
+
+Subscriptions
+
+Smart Collect
+
+Optimizer
+
+Route
+
+Third-Party Validation
+
+Payments Mobile App
+
+Payments Changelog
+Glossary
+Available in
+
+IN
+India
+
+MY
+Malaysia
+
+SG
+Singapore
+
+US
+United States
+
+Razorpay Payments Suite
+Explore Razorpay Payment Gateway and the entire suite of products available as part of Razorpay Payments Suite.
+
+
+Copy for AI
+
+View as Markdown
+Razorpay enables businesses to accept, process, and disburse payments seamlessly across multiple channels. Whether you are running an online store, managing subscriptions or facilitating marketplace transactions, Razorpay provides the tools and infrastructure to handle payments at scale.
+
+Accept Payments
+
+Set up payment gateways, process transactions and manage customer payments across multiple channels.
+
+Disburse Payments
+
+Send bulk payouts, vendor payments and instant transfers with automated reconciliation.
+
+Advanced Products
+
+Advanced solutions, including payment optimisation, EMI options, business trust badges and buyer protection features.
+
+Solutions by Industry
+
+Find tailored payment solutions for ecommerce, SaaS, marketplaces and enterprise businesses.
+
+Solutions by Platform
+
+Integrate with e-commerce plugins, SDKs for mobile and web and comprehensive APIs for custom builds.
+
+Try Ray: Our Product Recommender
+Select Products with Ray
+
+Use Ray, the Razorpay chatbot, to select the right product that meets your unique business needs.
+
+
+How to use Ray
+
+Watch this video to know how Ray can help you choose Razorpay products.
+
+Accept Payments
+
+Online Payments
+
+
+Offline Payments
+
+
+Recurring Payments
+
+Accept payments through websites, apps or without any technical setup.
+
+Payment Gateway
+Payment Gateway
+
+Seamless checkout experience with 100+ payment modes for your website or app.
+
+Magic Checkout
+Magic Checkout
+
+One-click checkout experience with pre-filled customer details and automated address detection.
+
+Payment Links
+Payment Links
+
+Generate and share unique Payment Links instantly via WhatsApp, SMS or email - no website or coding required.
+
+Payment Pages
+Payment Pages
+
+Collect payments for events, courses or donations with branded hosted pages.
+
+Payment Buttons
+Payment Buttons
+
+Add a ready-to-use Payment Button to your website with a simple HTML copy-and-paste.
+
+QR Codes
+QR Codes
+
+Display QR codes at checkout for quick, touch-free mobile payments.
+
+Smart Collect 2.0
+Smart Collect 2.0
+
+Generate customer identifiers and VPAs on demand and accept payments using NEFT, RTGS, IMPS and UPI.
+
+Invoices
+Invoices
+
+Create and send GST-compliant invoices that customers can pay online instantly.
+
+Disburse Payments
+Use Razorpay products to split and transfer payments collected from customers and make payouts to customers.
+
+Route
+Route
+
+Automatically split incoming payments among multiple parties. Perfect for marketplaces, platforms and franchises.
+
+RazorpayX
+RazorpayX
+
+Complete business banking platform with Payouts, Current Account, Escrow Account and Tax Payments.
+
+Advanced Products
+Optimizer
+Optimizer
+
+Route transactions across multiple payment gateways with a single integration - optimise costs and boost success rates effortlessly.
+
+EMI²
+EMI²
+
+Increase order values and conversions with flexible EMI payment options from leading banks and NBFCs.
+
+Razorpay Trusted Business
+Razorpay Trusted Business
+
+Build customer trust with a verified business badge and transparent checkout experience.
+
+Razorpay Buyer Protection
+Razorpay Buyer Protection
+
+Enhanced customer confidence with purchase protection and dispute resolution support.
+
+Solutions by Industry
+Ecommerce & Retail
+Ecommerce & Retail
+
+Payment Gateway for online stores, Route for marketplaces, Payment Links for quick checkouts and Subscriptions for recurring billing.
+
+BFSI
+BFSI
+
+Third-Party Validation (TPV) for SEBI compliance, Route for fund splits across multiple accounts, Subscriptions for SIPs and loan repayments.
+
+Travel
+Travel
+
+Payment Gateway with high success rates, Payment Links for bookings, international payments and multi-currency settlement support.
+
+Solutions by Platform
+Razorpay offers a wide range of integrations as given below:
+
+
+Web
+
+
+Ecommerce Plugins
+
+
+Mobile
+
+Checkout Integrations
+
+Razorpay Standard Checkout
+Razorpay Custom Checkout
+Server Integrations
+
+PHP
+PHP
+Ruby
+Ruby
+Python
+Python
+NodeJS
+NodeJS
+.NET
+.NET
+Java
+Java
+Go
+Go
+Related Information
+Quickstart Guide
+Payment Gateway
+How Payment Gateway Works
+Was this page helpful?
+
+
+Yes
+
+
+No
+
+razorpay payments
+payments suite
+razorpay products
+SUBSCRIBE TO DEVELOPER UPDATES
+
+Your email address
+
+Subscribe
+
+API Reference Guide
+
+Integrations
+
+Support
+
+
+ON THIS PAGE
+
+Try Ray: Our Product Recommender
+
+Accept Payments
+
+Disburse Payments
+
+Advanced Products
+
+Solutions by Industry
+
+Solutions by Platform
+
+Related Information
