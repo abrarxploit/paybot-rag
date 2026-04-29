@@ -1,71 +1,152 @@
-paybot-rag/
-│
-├── app.py                  # Streamlit UI — chat interface
-├── rag.py                  # Core RAG logic — retrieval + generation
-├── ingest.py               # Document ingestion — chunks + embeds docs
-├── requirements.txt        # All dependencies
-├── .env                    # Your API key (create this yourself)
-├── .gitignore              # Prevents secrets from being uploaded
-│
-├── docs/                   # Put your Razorpay .txt files here
-│   └── razorpay_payments.txt
-│
-├── chroma_db/              # Auto-created when you run ingest.py
-│   └── ...
-│
+# 💳 PayBot — Razorpay Docs AI Assistant (RAG Chatbot)
 
-<br>
+> Ask anything about Razorpay APIs and get accurate, source-backed answers using AI + your own documentation.
 
-## ❓ Troubleshooting
+---
 
-| Error | Fix |
-|---|---|
-| streamlit not recognized | Use python -m streamlit run app.py instead |
-| GEMINI_API_KEY not found | Make sure .env file exists with your key |
-| quota exceeded | You hit free tier limit — wait a few minutes and retry |
-| Empty file error | Open the .txt file — if blank, re-copy the docs page |
-| chroma_db already exists | Delete chroma_db/ folder and run python ingest.py again |
-| module not found | Run pip install -r requirements.txt again |
+## 📸 Demo
 
-<br>
-## Working Screenshot
-<img width="1919" height="1079" alt="Screenshot 2026-04-29 135403" src="https://github.com/user-attachments/assets/7482ab0e-b588-40bc-935e-64850f35f2a4" />
+![Demo](<../Pictures/Screenshots/Screenshot 2026-04-29 135403.png>)
 
+---
 
-## 🔧 Configuration
+## 🧠 What This Project Does
 
-You can tune these settings for better results:
+This is a Retrieval-Augmented Generation (RAG) chatbot that:
 
-**In ingest.py** — chunk size controls how much text each piece contains:
-# Larger = more context per answer, but slower
-chunk_size=800, overlap=150
-**In `rag.py** — top_k controls how many chunks are retrieved:
-``python
-# Higher = more context, but may hit token limits
-def retrieve(query, top_k=5):
-`
+- Reads Razorpay docs (.txt)
+- Converts them into embeddings
+- Stores them in ChromaDB
+- Retrieves relevant context
+- Uses Gemini AI to answer ONLY from docs
 
-<br>
+If answer is not found → "I don’t have that info."
 
-## 🤝 Contributing
+---
 
-1. Fork this repository
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Make your changes
-4. Push and open a Pull Request
+## ⚙️ Tech Stack
 
-<br>
+- Python 3.10+
+- Streamlit
+- ChromaDB
+- Sentence Transformers
+- Google Gemini API
 
-## 📄 License
+---
 
-MIT License — free to use, modify, and distribute.
+## 📁 Project Structure
 
-<br>
+```
+paybot/
+├── app.py
+├── rag.py
+├── ingest.py
+├── requirements.txt
+├── .env
+├── docs/
+├── chroma_db/
+└── screenshots/
+    └── demo.png
+```
 
-## 👤 Abrar*Abrar**
-- GitHub: [@abrarxploit](https://github.com/abrarxploit)
-- Built as part of Razorpay AI Engineer placement preparation
+---
 
-<br>
+## ⚡ Run in 2 Minutes
 
---What is RAG?s RAG?** Retrieval-Augmented Generation combines a vector database (for finding relevant information) with an LLM (for generating human-readable answers). Instead of relying on the LLM's training data, RAG grounds every answer in your actual documents — making it accurate, up-to-date, and hallucination-free.
+### 1. Clone
+
+```
+git clone https://github.com/your-username/paybot.git
+cd paybot
+```
+
+### 2. Create venv
+
+```
+python -m venv venv
+```
+
+Activate:
+
+PowerShell:
+
+```
+.\venv\Scripts\Activate.ps1
+```
+
+CMD:
+
+```
+venv\Scripts\activate
+```
+
+---
+
+### 3. Install
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+### 4. Add API Key
+
+Create `.env`:
+
+```
+GEMINI_API_KEY=your_key_here
+```
+
+---
+
+### 5. Add Docs
+
+Put `.txt` files in `docs/`
+
+---
+
+### 6. Build DB
+
+```
+python ingest.py
+```
+
+---
+
+### 7. Run
+
+```
+python -m streamlit run app.py
+```
+
+Open: http://localhost:8501
+
+---
+
+## ❗ Troubleshooting
+
+Execution policy:
+
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Rebuild DB:
+
+```
+delete chroma_db/
+python ingest.py
+```
+
+---
+
+## 👨‍💻 Author
+
+Abrar Shabir Dar
+
+---
+
+## 📜 License
+
+MIT
