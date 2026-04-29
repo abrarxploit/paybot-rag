@@ -11,7 +11,7 @@
 <br>
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack Used
 
 | Layer | Tool | Details |
 |---|---|---|
